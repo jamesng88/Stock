@@ -6,7 +6,6 @@
 
 <?php
 if(isset($_SESSION['customer'])) {?>
-<a class="menu" href="change.php">修改密碼</a>
 <a class="menu" href="logout.php">登出</a>
 <hr>
 <?php } else  { ?>
